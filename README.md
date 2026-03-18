@@ -1,16 +1,22 @@
- House Price Prediction (ML Project)
+## 🏠 House Price Prediction (ML Project)
 
-## Overview
+## 📌 Overview
 This project predicts house proces using a Machine Learining model trained on the Calfornia Hosuing dataset.
 
-#
+## 🚀 Features
+Data Preprocessing and feature Scaling
+
+Train-Test split
+
+Linear Regression 
+
 Model Evaluation (MAE, MSE, R2 Score)
 
 Model saving using joblib
 
 Prediction system using saved model
 
-## Tech Stack
+## 🛠️ Tech Stack
 Python
 
 NumPy
@@ -19,9 +25,4 @@ Scikit-learn
 
 joblib
 
-## Project Structure# Features
-Data Preprocessing and feature Scaling
-
-Train-Test split
-
-Linear Regression 
+## 📂 Project Structure
