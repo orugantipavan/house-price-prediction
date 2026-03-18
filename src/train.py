@@ -46,5 +46,5 @@ print("MSE:", mse)
 print("R2 score:", r2)
 
 #8.Save model
-joblib.dump(model, 'house_price_model.pkl')
+joblib.dump(model, "models/model.pkl")
 print("Model saved as model.pkl")
