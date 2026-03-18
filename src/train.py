@@ -1,4 +1,5 @@
 #1.import libraries
+import joblib
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -43,3 +44,7 @@ print("\n Model Performance:")
 print("MAE:", mae)
 print("MSE:", mse)
 print("R2 score:", r2)
+
+#8.Save model
+joblib.dump(model, 'house_price_model.pkl')
+print("Model saved as model.pkl")
